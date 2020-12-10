@@ -1,0 +1,51 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>1864390e-1a25-4f7e-8f4c-e83f6b375379</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Data Structures\Arrays\Array Manipulation.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>HackerRank</Name>
+    <RootNamespace>HackerRank</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Data Structures\Arrays\Dynamic Array.py" />
+    <Compile Include="Data Structures\Dictionaries and Hashmaps\Hash Tables - Ransom Note.py" />
+    <Compile Include="Data Structures\Arrays\Array Manipulation.py" />
+    <Compile Include="Interview\Filling in Data.py" />
+    <Compile Include="Interview\Maximum Path.py" />
+    <Compile Include="Interview\Price to Sell.py" />
+    <Compile Include="Python\Find the Runner-Up Score!.py" />
+    <Compile Include="Data Structures\Arrays\Arrays - DS.py" />
+    <Compile Include="Python\Nested Lists.py" />
+    <Compile Include="Python\List Comprehensions.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data Structures\" />
+    <Folder Include="Data Structures\Arrays\" />
+    <Folder Include="Data Structures\Dictionaries and Hashmaps\" />
+    <Folder Include="Interview\" />
+    <Folder Include="Python\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
