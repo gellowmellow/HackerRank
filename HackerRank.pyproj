@@ -25,6 +25,8 @@
     <Compile Include="Data Structures\Arrays\Dynamic Array.py" />
     <Compile Include="Data Structures\Dictionaries and Hashmaps\Hash Tables - Ransom Note.py" />
     <Compile Include="Data Structures\Arrays\Array Manipulation.py" />
+    <Compile Include="Greedy Algorithms\Minimum Absolute Difference in an Array.py" />
+    <Compile Include="Python\Multiset.py" />
     <Compile Include="Mathematics\Find the Point.py" />
     <Compile Include="Python\Find the Runner-Up Score!.py" />
     <Compile Include="Data Structures\Arrays\Arrays - DS.py" />
@@ -38,6 +40,7 @@
     <Folder Include="Data Structures\Dictionaries and Hashmaps\" />
     <Folder Include="Mathematics\" />
     <Folder Include="Artificial Intelligencve\" />
+    <Folder Include="Greedy Algorithms\" />
     <Folder Include="SQL\" />
     <Folder Include="Python\" />
   </ItemGroup>
